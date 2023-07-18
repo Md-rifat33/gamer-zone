@@ -139,6 +139,8 @@ header {
   padding: 13px;
   text-transform: uppercase;
   font-size: 15px;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
 .go_btn {
@@ -151,6 +153,13 @@ header {
   padding: 13px;
   text-transform: uppercase;
   font-size: 15px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.signIn_btn:hover,
+.go_btn:hover {
+  transform: scale(1.05);
 }
 
 .banner_img {
@@ -166,6 +175,7 @@ header {
 /* Start : Mobile Responsive */
 
 @media screen and (max-width: 576px) {
+  /* Start : Navbar */
   .navbar,
   .list_items {
     flex-direction: column;
@@ -174,4 +184,38 @@ header {
     margin-top: 20px;
     text-align: center;
   }
+  /* End : Navbar */
+
+  /* Start : Banner */
+  .banner {
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  .banner_title {
+    font-size: 20px;
+  }
+
+  .banner_title_span {
+    font-size: 40px;
+  }
+
+  .instant_play,
+  .download,
+  .users {
+    font-size: 13px;
+  }
+
+  .users_details,
+  .download_text,
+  .click_text {
+    margin-left: 4px;
+  }
+
+  .go_btn {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  /* End : Banner */
 }
