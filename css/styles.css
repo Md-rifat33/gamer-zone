@@ -250,6 +250,39 @@ main {
 
 /* End : play_instantly section */
 
+/* Start : Various Games Section */
+
+.various_games {
+  padding: 20px;
+}
+
+.first_part {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.second_part {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.action_games,
+.adventure_games,
+.arcade_games,
+.education_games,
+.word_games,
+.role_games {
+  display: flex;
+  align-items: center;
+}
+
+.games_title {
+  margin-left: 15px;
+}
+/* End : Various Games Section */
+
 /* Start : Mobile Responsive */
 
 @media screen and (max-width: 576px) {
