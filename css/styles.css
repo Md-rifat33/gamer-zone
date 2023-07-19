@@ -254,6 +254,7 @@ main {
 
 .various_games {
   padding: 20px;
+  margin-bottom: 70px;
 }
 
 .first_part {
@@ -276,12 +277,81 @@ main {
 .role_games {
   display: flex;
   align-items: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.action_games:hover,
+.adventure_games:hover,
+.arcade_games:hover,
+.education_games:hover,
+.word_games:hover,
+.role_games:hover {
+  width: 200px;
+  background: transparent;
+  border: 1px solid #f948b2;
+  border-radius: 300px;
 }
 
 .games_title {
   margin-left: 15px;
 }
 /* End : Various Games Section */
+
+/* Start : footer */
+
+.footer {
+  background-color: #0b0223;
+  height: 400px;
+  color: #fff;
+  padding: 80px;
+  margin: auto;
+}
+
+.footer_logo_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_logo_title {
+  font-size: 35px;
+  margin-left: 15px;
+}
+
+.footer_logoTitle_span {
+  color: #f948b2;
+}
+
+.items {
+  width: 1440px;
+  margin: auto;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.footer_icons {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.footer_icons i {
+  color: #fff;
+}
+
+.footer_text {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* End : footer */
 
 /* Start : Mobile Responsive */
 
