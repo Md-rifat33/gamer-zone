@@ -73,7 +73,8 @@ main {
   color: red;
 }
 
-.instagram_icon {
+.facebook_icon {
+  color: rgba(0, 0, 255, 0.719);
   margin-right: 10px;
 }
 /* End : Navbar */
@@ -101,7 +102,7 @@ main {
   font-size: 60px;
   font-weight: bolder;
   line-height: 75px;
-  background: linear-gradient(to top, rgba(0, 0, 255, 0.575), #f32170);
+  background: linear-gradient(to top, #8758f1, #f948b2);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -186,7 +187,7 @@ main {
 }
 
 .online_games_title_span {
-  background: linear-gradient(to top, rgba(0, 0, 255, 0.575), #f32170);
+  background: linear-gradient(to top, #8758f1, #f948b2);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-weight: 800;
@@ -204,6 +205,50 @@ main {
   gap: 20px;
 }
 /* End : Online Games  */
+
+/* Start : play_instantly section */
+.play_instantly {
+  margin-top: 100px;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.play_instantly_details {
+  width: 50%;
+  padding-left: 80px;
+  margin-top: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.play_instantly_title {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.play_instantly_title_span {
+  color: #f948b2;
+}
+
+.play_instantly_info {
+  color: grey;
+  line-height: 28px;
+  font-style: italic;
+}
+
+.play_instantly_image {
+  width: 50%;
+}
+
+.playInstantly_another_image {
+  position: relative;
+  right: 150px;
+  bottom: 300px;
+}
+
+/* End : play_instantly section */
 
 /* Start : Mobile Responsive */
 
@@ -271,4 +316,15 @@ main {
     width: 100%;
   }
   /* End : Online Games */
+
+  /* Start : Play Instantly  */
+  .play_instantly {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .play_instantly_title {
+    font-size: 20px;
+  }
+  /* End : Play Instantly  */
 }
